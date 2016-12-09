@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E42F0F211DFA396300391BDD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E42F0F201DFA396300391BDD /* main.m */; };
+		E42F0F241DFA396300391BDD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E42F0F231DFA396300391BDD /* AppDelegate.m */; };
+		E42F0F271DFA396300391BDD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E42F0F261DFA396300391BDD /* ViewController.m */; };
+		E42F0F2A1DFA396300391BDD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42F0F281DFA396300391BDD /* Main.storyboard */; };
+		E42F0F2C1DFA396300391BDD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42F0F2B1DFA396300391BDD /* Assets.xcassets */; };
+		E42F0F2F1DFA396300391BDD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42F0F2D1DFA396300391BDD /* LaunchScreen.storyboard */; };
+		E42F0F3A1DFA396300391BDD /* TouchStarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E42F0F391DFA396300391BDD /* TouchStarTests.m */; };
+		E42F0F451DFA396300391BDD /* TouchStarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E42F0F441DFA396300391BDD /* TouchStarUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E42F0F361DFA396300391BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42F0F141DFA396300391BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E42F0F1B1DFA396300391BDD;
+			remoteInfo = TouchStar;
+		};
+		E42F0F411DFA396300391BDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E42F0F141DFA396300391BDD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E42F0F1B1DFA396300391BDD;
+			remoteInfo = TouchStar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E42F0F1C1DFA396300391BDD /* TouchStar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchStar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F0F201DFA396300391BDD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E42F0F221DFA396300391BDD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E42F0F231DFA396300391BDD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E42F0F251DFA396300391BDD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E42F0F261DFA396300391BDD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E42F0F291DFA396300391BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E42F0F2B1DFA396300391BDD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E42F0F2E1DFA396300391BDD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E42F0F301DFA396300391BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42F0F351DFA396300391BDD /* TouchStarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchStarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F0F391DFA396300391BDD /* TouchStarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchStarTests.m; sourceTree = "<group>"; };
+		E42F0F3B1DFA396300391BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E42F0F401DFA396300391BDD /* TouchStarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchStarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F0F441DFA396300391BDD /* TouchStarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchStarUITests.m; sourceTree = "<group>"; };
+		E42F0F461DFA396300391BDD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E42F0F191DFA396300391BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F0F321DFA396300391BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F0F3D1DFA396300391BDD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E42F0F131DFA396300391BDD = {
+			isa = PBXGroup;
+			children = (
+				E42F0F1E1DFA396300391BDD /* TouchStar */,
+				E42F0F381DFA396300391BDD /* TouchStarTests */,
+				E42F0F431DFA396300391BDD /* TouchStarUITests */,
+				E42F0F1D1DFA396300391BDD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E42F0F1D1DFA396300391BDD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E42F0F1C1DFA396300391BDD /* TouchStar.app */,
+				E42F0F351DFA396300391BDD /* TouchStarTests.xctest */,
+				E42F0F401DFA396300391BDD /* TouchStarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E42F0F1E1DFA396300391BDD /* TouchStar */ = {
+			isa = PBXGroup;
+			children = (
+				E42F0F221DFA396300391BDD /* AppDelegate.h */,
+				E42F0F231DFA396300391BDD /* AppDelegate.m */,
+				E42F0F251DFA396300391BDD /* ViewController.h */,
+				E42F0F261DFA396300391BDD /* ViewController.m */,
+				E42F0F281DFA396300391BDD /* Main.storyboard */,
+				E42F0F2B1DFA396300391BDD /* Assets.xcassets */,
+				E42F0F2D1DFA396300391BDD /* LaunchScreen.storyboard */,
+				E42F0F301DFA396300391BDD /* Info.plist */,
+				E42F0F1F1DFA396300391BDD /* Supporting Files */,
+			);
+			path = TouchStar;
+			sourceTree = "<group>";
+		};
+		E42F0F1F1DFA396300391BDD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E42F0F201DFA396300391BDD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E42F0F381DFA396300391BDD /* TouchStarTests */ = {
+			isa = PBXGroup;
+			children = (
+				E42F0F391DFA396300391BDD /* TouchStarTests.m */,
+				E42F0F3B1DFA396300391BDD /* Info.plist */,
+			);
+			path = TouchStarTests;
+			sourceTree = "<group>";
+		};
+		E42F0F431DFA396300391BDD /* TouchStarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E42F0F441DFA396300391BDD /* TouchStarUITests.m */,
+				E42F0F461DFA396300391BDD /* Info.plist */,
+			);
+			path = TouchStarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E42F0F1B1DFA396300391BDD /* TouchStar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42F0F491DFA396300391BDD /* Build configuration list for PBXNativeTarget "TouchStar" */;
+			buildPhases = (
+				E42F0F181DFA396300391BDD /* Sources */,
+				E42F0F191DFA396300391BDD /* Frameworks */,
+				E42F0F1A1DFA396300391BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchStar;
+			productName = TouchStar;
+			productReference = E42F0F1C1DFA396300391BDD /* TouchStar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E42F0F341DFA396300391BDD /* TouchStarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42F0F4C1DFA396300391BDD /* Build configuration list for PBXNativeTarget "TouchStarTests" */;
+			buildPhases = (
+				E42F0F311DFA396300391BDD /* Sources */,
+				E42F0F321DFA396300391BDD /* Frameworks */,
+				E42F0F331DFA396300391BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E42F0F371DFA396300391BDD /* PBXTargetDependency */,
+			);
+			name = TouchStarTests;
+			productName = TouchStarTests;
+			productReference = E42F0F351DFA396300391BDD /* TouchStarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E42F0F3F1DFA396300391BDD /* TouchStarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E42F0F4F1DFA396300391BDD /* Build configuration list for PBXNativeTarget "TouchStarUITests" */;
+			buildPhases = (
+				E42F0F3C1DFA396300391BDD /* Sources */,
+				E42F0F3D1DFA396300391BDD /* Frameworks */,
+				E42F0F3E1DFA396300391BDD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E42F0F421DFA396300391BDD /* PBXTargetDependency */,
+			);
+			name = TouchStarUITests;
+			productName = TouchStarUITests;
+			productReference = E42F0F401DFA396300391BDD /* TouchStarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E42F0F141DFA396300391BDD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = lihonggui;
+				TargetAttributes = {
+					E42F0F1B1DFA396300391BDD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LXU7268T7F;
+						ProvisioningStyle = Automatic;
+					};
+					E42F0F341DFA396300391BDD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LXU7268T7F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E42F0F1B1DFA396300391BDD;
+					};
+					E42F0F3F1DFA396300391BDD = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = LXU7268T7F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E42F0F1B1DFA396300391BDD;
+					};
+				};
+			};
+			buildConfigurationList = E42F0F171DFA396300391BDD /* Build configuration list for PBXProject "TouchStar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E42F0F131DFA396300391BDD;
+			productRefGroup = E42F0F1D1DFA396300391BDD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E42F0F1B1DFA396300391BDD /* TouchStar */,
+				E42F0F341DFA396300391BDD /* TouchStarTests */,
+				E42F0F3F1DFA396300391BDD /* TouchStarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E42F0F1A1DFA396300391BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42F0F2F1DFA396300391BDD /* LaunchScreen.storyboard in Resources */,
+				E42F0F2C1DFA396300391BDD /* Assets.xcassets in Resources */,
+				E42F0F2A1DFA396300391BDD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F0F331DFA396300391BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F0F3E1DFA396300391BDD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E42F0F181DFA396300391BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42F0F271DFA396300391BDD /* ViewController.m in Sources */,
+				E42F0F241DFA396300391BDD /* AppDelegate.m in Sources */,
+				E42F0F211DFA396300391BDD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F0F311DFA396300391BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42F0F3A1DFA396300391BDD /* TouchStarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E42F0F3C1DFA396300391BDD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E42F0F451DFA396300391BDD /* TouchStarUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E42F0F371DFA396300391BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E42F0F1B1DFA396300391BDD /* TouchStar */;
+			targetProxy = E42F0F361DFA396300391BDD /* PBXContainerItemProxy */;
+		};
+		E42F0F421DFA396300391BDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E42F0F1B1DFA396300391BDD /* TouchStar */;
+			targetProxy = E42F0F411DFA396300391BDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E42F0F281DFA396300391BDD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E42F0F291DFA396300391BDD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E42F0F2D1DFA396300391BDD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E42F0F2E1DFA396300391BDD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E42F0F471DFA396300391BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E42F0F481DFA396300391BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E42F0F4A1DFA396300391BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = TouchStar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.TouchStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E42F0F4B1DFA396300391BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = TouchStar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.TouchStar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E42F0F4D1DFA396300391BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = TouchStarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.TouchStarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchStar.app/TouchStar";
+			};
+			name = Debug;
+		};
+		E42F0F4E1DFA396300391BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = TouchStarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.TouchStarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchStar.app/TouchStar";
+			};
+			name = Release;
+		};
+		E42F0F501DFA396300391BDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = TouchStarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.TouchStarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TouchStar;
+			};
+			name = Debug;
+		};
+		E42F0F511DFA396300391BDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = LXU7268T7F;
+				INFOPLIST_FILE = TouchStarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = lihonggui1988.TouchStarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TouchStar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E42F0F171DFA396300391BDD /* Build configuration list for PBXProject "TouchStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42F0F471DFA396300391BDD /* Debug */,
+				E42F0F481DFA396300391BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42F0F491DFA396300391BDD /* Build configuration list for PBXNativeTarget "TouchStar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42F0F4A1DFA396300391BDD /* Debug */,
+				E42F0F4B1DFA396300391BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42F0F4C1DFA396300391BDD /* Build configuration list for PBXNativeTarget "TouchStarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42F0F4D1DFA396300391BDD /* Debug */,
+				E42F0F4E1DFA396300391BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E42F0F4F1DFA396300391BDD /* Build configuration list for PBXNativeTarget "TouchStarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E42F0F501DFA396300391BDD /* Debug */,
+				E42F0F511DFA396300391BDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E42F0F141DFA396300391BDD /* Project object */;
+}
